@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "app.js"
+        }
+    ],
+    "env": {
+        "ENV_FILE": ".env.prd"
+    },
+    "build": {
+        "env": {
+            "ENV_FILE": ".env.prd"
+        }
+    }
+}
